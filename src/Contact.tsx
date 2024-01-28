@@ -34,7 +34,6 @@ function Contact() {
           
           <p id='ContactText'><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rowanbithal">@rowanbithal</a></p>
         </div>
-        <p>aa</p>
         
       </div>
     </div>

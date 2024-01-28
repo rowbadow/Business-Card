@@ -9,8 +9,7 @@ function End() {
       
       <div className='EndTextDiv'>
 
-        <div><h2>Contact</h2></div>
-        <div><p id='ContactText'>Contact me</p></div>
+        <div><p id='EndText'>Copyright © 2024. All rights are reserved</p></div>
         
       </div>
     </div>

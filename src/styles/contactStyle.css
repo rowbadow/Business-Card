@@ -40,6 +40,10 @@
     align-items: center;
 }
 
+svg {
+    min-width: 40px;
+}
+
 @media only screen and (max-width: 800px) {
     .ContactTextDiv {
         flex-direction: column;
