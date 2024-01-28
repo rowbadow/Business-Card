@@ -1,0 +1,48 @@
+#contact-container {
+    display: flex;  
+    
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+
+    
+}
+
+.ContactTextDiv {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    max-width: 40vw;
+}
+
+.ContactIcon {
+    padding: 8px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #ddd;
+}
+
+#ContactText {
+    margin:0;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.ContactTextDiv {
+    padding-top: 30px;
+}
+
+.ContactSection {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .ContactTextDiv {
+        flex-direction: column;
+    }
+}
+

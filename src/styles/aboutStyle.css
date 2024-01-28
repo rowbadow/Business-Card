@@ -1,0 +1,49 @@
+#about-container {
+    display: flex;  
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+#AboutImageDiv {
+    padding-right: 3vw;
+}
+#AboutImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    max-width: 480px;
+    
+    border: 5px solid #2d2e32;
+    border-radius: 10%;
+  
+  }
+.AboutTextDiv {
+    display: flex;
+    flex-direction: column;    
+    text-align: left;
+    max-width: 400px;   
+}
+
+@media only screen and (max-width: 800px) {
+    #about-container {
+      flex-direction: column-reverse;
+
+    }
+    .AboutTextDiv > *{
+      text-align: center;
+    }
+    #AboutImage {
+        max-width: 300px;
+    }
+  }
+
+
+
