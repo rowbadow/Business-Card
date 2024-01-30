@@ -1,4 +1,4 @@
-import MainImage from './assets/image1.jpeg';
+import MainImage from './assets/image1.jpg';
 import "./styles/homeStyle.css";
 
 
