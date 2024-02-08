@@ -1,9 +1,11 @@
 import "./styles/projectsStyle.css";
+import CarRental from "./assets/Car-rental.png";
 
 const projectList = [
   {
-    name: "Project1",
-    link: "https://github.com/rowbadow",
+    name: "CarRental",
+    link: "https://github.com/luc4sB/CarRentalBusinessWebsite",
+    image: CarRental,
   },
   {
     name: "Project2",
@@ -33,7 +35,7 @@ function Projects() {
 
         <div id="Projects">
           {projectList.map((item) => (
-              <a href={item.link} id={item.name}></a>
+              <a href={item.link} id={item.name}><img src={item.image} className="project-image"/></a>
             ))}
           
         </div>
