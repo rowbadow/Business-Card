@@ -7,7 +7,9 @@ This is a personal project designed to share information about me.
 
 ### Screenshot of the project 📸
 
-<img style="width:50%" src="https://github.com/rowbadow/Business-Card/assets/120333793/2d9b47e4-698d-47ea-8662-55503325b5d8"/>
 
 
-
+<p float="left">
+  <img style="width:500px" src="https://github.com/rowbadow/Business-Card/assets/120333793/cb92f6c5-3112-4880-b356-f427d4110d6e"/>
+  <img style="width:269px" src="https://github.com/rowbadow/Business-Card/assets/120333793/bd3936c7-1df6-43ce-bb77-c415d63706c0"/>
+</p>
